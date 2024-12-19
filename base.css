@@ -1,0 +1,38 @@
+body{
+    background-color: #E6FFE9;
+}
+nav ul{
+    display: block;
+    margin: 36px 0 12px;
+    text-align: center;
+}
+nav li, nav a{
+    display: inline;
+}
+nav li{
+    margin: 0 0.4rem;
+}
+nav a{
+    background: transport;
+}
+.logo{
+    text-align: center;
+    width: 1000px;
+    height: 600px;
+}
+.texxt{
+    padding-left: 26%;
+    inline-size: 900px;
+    overflow-wrap: break-word;
+}
+.tocs1 {
+    margin:0 auto;
+    color:navy;
+    border: dashed 5px gray;
+    background-color: lightyellow;
+    box-shadow: 0 10px 10px rgba(5, 0, 0,0.5);
+    border-radius: 10px;
+    padding-right: 30px;
+    max-width: 1000px;
+    height: 670px;
+  }
