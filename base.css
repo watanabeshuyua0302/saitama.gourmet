@@ -21,7 +21,7 @@ nav a{
     height: 600px;
 }
 .texxt{
-    padding-left: 26%;
+    /*padding-left: 26%;*/
     inline-size: 900px;
     overflow-wrap: break-word;
 }
@@ -31,8 +31,19 @@ nav a{
     border: dashed 5px gray;
     background-color: lightyellow;
     box-shadow: 0 10px 10px rgba(5, 0, 0,0.5);
-    border-radius: 10px;
+    /*border-radius: 10px;
     padding-right: 30px;
-    max-width: 1000px;
-    height: 670px;
+    max-width: 850px;
+    height: 670px;*/
   }
+.slider img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+/*
+paddding ボックス内側の余白
+margin ボックス外側の余白
+border-radius 要素の境界の外側の角を真ん丸にする 
+overflow-wrap テキストが画面からはみ出してしまう場合どのように改行するかを指定する
+*/
